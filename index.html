@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Nadu Travel Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="nav-brand">
+            <i class="fas fa-landmark"></i>
+            <span>Tamil Nadu Explorer</span>
+        </a>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Tamil Nadu</h1>
+            <p>Experience the rich culture, heritage, and natural beauty</p>
+            <div class="search-container">
+                <select id="citySelect" class="city-select">
+                    <option value="">Select a District</option>
+                </select>
+                <button id="exploreBtn" class="explore-btn">
+                    <i class="fas fa-search"></i> Explore Nearby
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <!-- Destinations will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="experiences" class="featured-experience">
+        <div class="experience-content">
+            <h2>Featured Experiences</h2>
+            <div class="experience-cards">
+                <div class="experience-card">
+                    <i class="fas fa-gopuram"></i>
+                    <h3>Temple Tours</h3>
+                    <p>Explore ancient temples with rich architecture and history</p>
+                </div>
+                <div class="experience-card">
+                    <i class="fas fa-umbrella-beach"></i>
+                    <h3>Beach Escapes</h3>
+                    <p>Relax at scenic coastal destinations along the Bay of Bengal</p>
+                </div>
+                <div class="experience-card">
+                    <i class="fas fa-mountain"></i>
+                    <h3>Hill Stations</h3>
+                    <p>Visit beautiful hill stations and tea gardens in the Western Ghats</p>
+                </div>
+                <div class="experience-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Culinary Tours</h3>
+                    <p>Taste authentic Tamil cuisine and traditional delicacies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Tamil Nadu</h2>
+            <p>Tamil Nadu, the land of Tamils, is one of India's most vibrant states. Rich in culture, history, and natural beauty, it offers a diverse range of experiences for every traveler.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Discover the best travel destinations in Tamil Nadu with our comprehensive guide to all 28 districts.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tamil Nadu Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
